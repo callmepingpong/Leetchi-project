@@ -1,0 +1,121 @@
+.background{
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    z-index: -9;
+    width: 375px;
+    height: 120vh;
+}
+
+header img{
+    width: 200px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+.cagnotte{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gros-titre {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-color: orange;
+    color:white;
+    width: 375px;
+    height: 40px;
+}
+
+.section2 {
+    background-color: rgba(221, 217, 217, 0.999);
+    width: 100%;
+    height: 15vh;
+    border-radius: 80px;
+    margin-bottom: 25px;
+}
+
+.section2 img{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    margin-top: -12px;
+    margin-left: -25px;
+}
+
+.sous-section2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.sous-section2 article h2{
+    font-size: 0.8rem;
+    width: 100%;
+}
+
+.sous-section2 article p{
+    font-size: 0.7rem;
+}
+
+.section2 button {
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 160px;
+    border-radius: 30px;
+    background-color: orange;
+    border:none;
+    color:white;
+}
+
+img{
+    object-fit: cover;
+}
+
+select {
+    font-size: .9rem;
+    padding: 2px 5px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
+}
+
+footer{
+    width:375px;
+    height: 175px;
+    background-color: green;
+}
+
+.sous-footer{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-top: 30px;
+}
+
+.pasmerci {
+    width: 500px;
+    background-color: green;
+}
+
+.footersection img {
+    width: 20px;
+}
+
+.footersection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

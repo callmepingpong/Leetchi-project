@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: 0;
+    list-style: none;
+}
+
+#title1 {
+    text-align: center;
+}
+
+#title1 p{
+    color: green;
+    font-size: 20px;
+    padding: 5% 0;
+}
+
+#formulaire{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+a{
+    color: white;
+}
+
+header figure{
+    display: flex;
+    justify-content: center;
+}
+
+header img{
+    width: 50%;
+}
+
+button{
+    margin: 2%;
+    font-size: 13px;
+    padding: 3%;
+    width: fit-content;
+    background-color: orange;
+    border: 0;
+    border-radius: 20px;
+}
+
+.vert{
+    background-color: green;
+}
+
+form{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    width: 80%;
+    background-color: rgba(230, 230, 230,0.5);
+    border-radius: 60px;
+}
+
+form *:not(input, hr, button){
+    padding-top: 5%;
+}
+
+form,label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sous-footer{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-top: 30px;
+}
+
+.footersection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer{
+    width:375px;
+    height: 175px;
+    background-color: green;
+}
+
+.footersection img {
+    width: 20px;
+}
+
+select {
+    font-size: .9rem;
+    padding: 2px 5px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
+}

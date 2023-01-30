@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    color: white;
+}
+
+figure{
+    width: 100px;
+}
+
+img{
+    width: 100%;
+}
+
+header section{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: lightgrey;
+    font-size: 7px;
+}
+
+header a{
+    color: grey;
+}
+
+header figure{
+    justify-self: center;
+}
+
+header span{
+    justify-self: end;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    font-size: 15px;
+}
+
+section:not(header section,footer section){
+    margin-top: 15%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#circle{
+    border-bottom: 1px dashed orange;
+    border-radius: 50% / 20%;
+}
+
+#circle h1{
+    font-size: 20px;
+}
+
+#circle h2{
+    font-size: 15px;
+    color: green;
+}
+
+.green_circle{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3% auto;
+    font-size: 10px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+button{
+    font-size: 10px;
+    padding: 1%;
+    background-color: orange;
+    border: 0;
+    border-radius: 20px;
+}
+
+#n1{
+    width: 50px;
+    height: 50px;
+}
+
+#n2{
+    width: 60px;
+    height: 60px;
+}
+
+#n3{
+    width: 70px;
+    height: 70px;
+}
+
+#account{
+    margin: 10% 5%;
+    padding: 5%;
+    background-color: rgba(241, 241, 241,0.5);
+    border-radius: 20%;
+
+}
+
+#account form,label{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: left;
+}
+
+#account input{
+    text-align: center;
+}
+
+#account button{
+    align-self: center;
+    padding: 3% 5%;
+}
+
+.sous-footer{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-top: 30px;
+}
+
+.footersection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer{
+    width:375px;
+    height: 175px;
+    background-color: green;
+}
+
+.footersection img {
+    width: 20px;
+}
+
+select {
+    font-size: .9rem;
+    padding: 2px 5px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
+}
